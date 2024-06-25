@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="TestSuiteOne">
+
+<test name ="TestOne" >
+
+<groups>
+<run>
+<include name="tata"></include>
+<exclude name="hcl"></exclude>
+</run>
+</groups>
+
+<classes>
+<class name ="com.testSuites.TestNgGroups"></class>
+</classes>
+
+</test>
+
+</suite>
