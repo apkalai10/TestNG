@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="TestSuiteOne">
+
+<test name ="Test" >
+
+<parameter name="name1" value="Aravinth"/>
+<parameter name="name2" value="Prasath"/>
+
+<classes>
+<class name="com.testSuites.TestNgParameter"></class>
+</classes>
+
+</test>
+
+</suite>
